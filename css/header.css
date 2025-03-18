@@ -1,0 +1,54 @@
+header {
+    padding: 33px 0 38px 0;
+}
+
+.container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+
+    width: 105px;
+    height: 149px;
+}
+
+.menu-button {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 50%; /* Круглая форма */
+    width: 96px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-flow: column wrap;
+}
+
+.bar {
+    display: block;
+    width: 46px;
+    height: 4px;
+    background-color: #9189A1;
+    margin: 6px 0;
+    border-radius: 1px;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        text-align: right;
+        flex-grow: 0;
+    }
+    .menu-button {
+        position: absolute;
+        left: 20px;
+    }
+}

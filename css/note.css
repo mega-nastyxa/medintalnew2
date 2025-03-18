@@ -1,0 +1,33 @@
+.note {
+    display: flex;  
+    justify-content: flex-start;               
+}
+.container__note {
+    height: 204px;
+    width: 685px;
+    background-color: #E1D9E0;
+    color: #78645D;
+    border-radius: 18px;
+    font-size: 27px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.note__text {
+    padding: 34px 0 0 27px;
+}
+
+.note__more {
+    color: var(--secondary-color);
+    padding-bottom: 24px;
+    padding-right: 34px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__more {
+    border: none;
+}
