@@ -1,0 +1,149 @@
+.work {
+    height: 951px;
+    padding-top: 100px;
+}
+
+.container__work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work__title {
+    font-size: 54px;
+    padding-bottom: 50px;
+}
+
+.work__cards {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(1, 490px);
+    padding-bottom: 77px;
+    
+}
+
+.work-card {
+    background-color: #F4F1FA;
+    border-radius: 28px;
+}
+
+.work-subtitle {
+    color: #443B38;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.work-text {
+    color: #9F857B;
+    font-size: 15px;
+    text-align: start;
+    padding-left: 15px;
+    width: 290px;
+}
+
+.card__img_work {
+    padding: 10px 10px 15px 10px;
+}
+
+.btn {
+    width: auto;
+    height: 58px;
+    background-color: #F4F1FA;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn__text {
+    color: #332240;
+    padding: 0 39px 0 39px;
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 1185px) {
+    .work__title {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .work__cards {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(1, 390px);
+        padding-bottom: 77px;
+    }
+
+    .card__img_work img {
+        width: 180px;
+    }
+
+    .work-subtitle {
+        color: #443B38;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .work-text {
+        font-size: 13px;
+        width: 192px;
+    }
+}
+
+@media (max-width: 780px) {
+    .work__title {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .work {
+        height: auto;
+        padding-top: 60px;
+    }
+
+    .work__cards {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 260px);
+        grid-template-rows: repeat(1, 420px);
+        padding-bottom: 77px;
+
+        height: 440px;
+        overflow: hidden;
+    }
+
+    .card__img_work {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .work-subtitle {
+        color: #443B38;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    
+    .work-text {
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .btn {
+        width: auto;
+        height: 45px;
+        border-radius: 10px;
+    }
+
+    .btn__text {
+        padding: 0 20px 0 20px;
+        font-size: 13px;
+
+    }
+
+    .card__img_work img {
+        width: 240px;
+    }
+
+}
+

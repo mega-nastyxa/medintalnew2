@@ -10,14 +10,86 @@
   <body>
     <header class="header">
         <div class="container">
-            <div class="container__header">
+            <div class="container__header open">
                 <button class="menu-button" id="menuButton">
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </button>
                 <div class="logo">
-                    <img src="./img/header/logo.svg" alt="">
+                    <img  class="logo-img" src="./img/header/logo.svg" alt="">
                 </div>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Косметология
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Дерматология
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Остеопатия
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Спа-процедуры
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Анализы
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Результаты работ
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                <img class="menu-icon" src="./img/header/menu-icon.svg" alt="">
+                                Наша команда
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="menu__data">
+                        <div class="data  signUp">
+                            Записаться:
+                        </div>
+                        <div class="signUp-icon-menu">
+                            <div class="icon-menu telegram">
+                                <img src="./img/footer/telegram.svg" alt="">
+                            </div>
+                            <div class="icon-menu whatsapp">
+                                <img src="./img/footer/whatsapp.svg" alt="">
+                            </div>
+                            <div class="icon-menu telephone">
+                                <img src="./img/footer/call.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="data data-menu number">
+                            <p>8 (901) 352-22-02</p>
+                            <p>8:00 - 21:00</p>
+                        </div>
+                        <div class="data mail">
+                            <p>medintal@mail.ru</p>
+                        </div>
+                    </div>
+                        
+                </nav>
             </div>
         </div> 
     </header>
@@ -26,24 +98,24 @@
         <div class="container">
             <div class="container__title">
                <div class="title-text">
-                    <h1>Мединталь — <br> клиника здоровья <br>и красоты</h1>
+                    <h1>Мединталь — <span class="font-regular"><br> клиника здоровья <br>и красоты</span></h1>
                 </div>
                 <div class="title-image">
-                    <img src="./img/title/главная картинка.png" alt="Клиника" />
+                    <img src="" alt="Клиника" />
                 </div> 
             </div>
         </div>   
     </section>
 
     <section class="note">
-        <div class="container">
-            <div class="container__note">
+        <div class="container__note">
+            <div class="block">
                 <div class="note__text">
-                    <h3>Подбираем процедуры в соответствии с вашими потребностями, полом и возрастом </h3>
-                </div>
-                <div class="note__more">
-                    <button class="btn__more">Подробнее...</button>
-                </div>
+                <h3>Подбираем процедуры в соответствии с вашими потребностями, полом и возрастом </h3>
+            </div>
+            <div class="note__more">
+                <button class="btn__more">Подробнее...</button>
+            </div>
             </div>
         </div>
     </section>
@@ -55,48 +127,210 @@
                     <h2>Направления нашей клиники</h2>
                 </div>
                 <div class="directions__cards">
-                    <div class="card__cosmetology">
-                        <div class="card__cosmetology_title">
+                    <div class="card card__cosmetology">
+                        <div class="card__title card__cosmetology_title">
                             <h4>Косметология</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div  class="card__img"><img src="./img/directions/косметология картинка0.png" alt=""></div>
                     </div>
-                    <div class="card__osteopathy">
-                        <div class="card__osteopathy_title">
+                    <div class="card card__osteopathy">
+                        <div class="card__title card__osteopathy_title">
                             <h4>Остеопатия</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div class="card__img"><img src="./img/directions/остеопатия картинка0.png" alt=""></div>
                     </div>
-                    <div class="card__dropper">
-                        <div class="card__dropper_title">
-                            <h4>Капельницы</h4>
+                    <div class="card card__dropper">
+                        <div class="card__title card__dropper_title">
+                            <h4>Капельницы <br> здоровья</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div class="card__img"><img src="./img/directions/капельницы картинка0.png" alt=""></div>
                     </div>
-                    <div class="card__analysis">
-                        <div class="card__analysis_title">
+                    <div class="card card__analysis">
+                        <div class="card__title card__analysis_title">
                             <h4>Анализы</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div class="card__img"><img src="./img/directions/анализы картинка0.png" alt=""></div>
                     </div>
-                    <div class="card__dermatology">
-                        <div class="card__dermatology_title">
+                    <div class="card card__dermatology">
+                        <div class="card__title card__dermatology_title">
                             <h4>Дерматология</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div class="card__img"><img src="./img/directions/дерматология картинка0.png" alt=""></div>
                     </div>
-                    <div class="card__spa">
-                        <div class="card__spa_title">
+                    <div class="card card__spa">
+                        <div class="card__title card__spa_title">
                             <h4>Спа <br> процедуры</h4>
                         </div>
-                        <div><img src="" alt=""></div>
+                        <div class="card__img"><img src="./img/directions/спа картинка.png0" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="note note__bottom">
+        <div class="container__note2">
+            <div class="block">
+                <div class="note__text">
+                <h3>Мы работаем с передовым и лицензированным 
+                    оборудованием последнего поколения </h3>
+                </div>
+                <div class="note__more">
+                    <button class="btn__more">Подробнее...</button>
+                </div>  
+            </div>
+        </div>
+    </section>
     
+    <section class="work">
+        <div class="container">
+            <div class="container__work">
+                <div class="work__title">
+                    <h2>Результаты работ</h2>
+                </div>
+                <div class="work__cards">
+                    <div class="work-card work-card__result_1">
+                        <div  class="card__img_work"><img src="./img/work/пример.png" alt=""></div>
+                        <div class="card__title ">
+                            <h4  class="work-subtitle">Увеличение и коррекция губ</h4>
+                            <p class="work-text">
+                                - Увеличили губы, сохранив при этом их естественную форму <br>
+                                - Гармонизировали верхнюю и нижнюю губу относительно друг друга и лица в целом <br>
+                                - Выровняли линию смыкания
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="work-card work-card__result_2">
+                        <div class="card__img_work"><img src="./img/work/пример.png" alt=""></div>
+                        <div class="card__title">
+                            <h4 class="work-subtitle">Коррекция мимических морщин</h4>
+                            <p class="work-text">
+                                Убрали возрастные складки
+                                Сохранили подвижность мимики 
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="work-card work-card__result_3">
+                        <div class="card__img_work"><img src="./img/work/пример.png" alt=""></div>
+                        <div class="card__title">
+                            <h4 class="work-subtitle">Коррекция мимических морщин</h4>
+                            <p class="work-text">
+                                Убрали возрастные складки
+                                Сохранили подвижность мимики 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn"><p class="btn__text">Больше результатов</p></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="container__team">
+                <div class="team__title">
+                    <h2>Команда профессионалов</h2>
+                </div>
+                <div class="team__cards">
+                    <div class="team-card team-card__result_1">
+                        <div  class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title ">
+                            <h4  class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card team-card__result_2">
+                        <div class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title">
+                            <h4 class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет 
+                            </p>
+                        </div> 
+                    </div>
+                    <div class="team-card team-card__result_3">
+                        <div class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title">
+                            <h4 class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card team-card__result_3">
+                        <div class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title">
+                            <h4 class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card team-card__result_3">
+                        <div class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title">
+                            <h4 class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет  
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-card team-card__result_3">
+                        <div class="card__img_team"><img src="" alt="" class="img_team"></div>
+                        <div class="card__title">
+                            <h4 class="team-subtitle">Ефремова Наталья Михайловна</h4>
+                            <p class="team-text">
+                                Главный врач <br> Мединталь клиники, <br>косметолог
+                                <br>Стаж: 15 лет 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-team"><p class="btn__text">Больше профессионалов</p></button>
+            </div>
+        </div>
+    </section>
     
+    <footer class="footer">
+        <div class="container">
+            <div class="container__footer">
+                <div class="information">
+                    <div class="data number">
+                        <p>8 (901) 352-22-02</p>
+                        <p>10:00-21:00</p>
+                    </div>
+                    <div class="data mail">
+                        <p>medintal@mail.ru</p>
+                    </div>
+                    <div class="data adress">
+                        <p>Балашиха, пр-кт Ленина 25, этаж 5, офис 504</p>
+                    </div>
+                    <div class="data signUp">
+                        Записаться:
+                    </div>
+                    <div class="signUp-icon">
+                        <div class="icon telegram">
+                            <img src="./img/footer/telegram.svg" alt="">
+                        </div>
+                        <div class="icon whatsapp">
+                            <img src="./img/footer/whatsapp.svg" alt="">
+                        </div>
+                        <div class="icon telephone">
+                            <img src="./img/footer/call.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="main.js"></script>
   </body>
